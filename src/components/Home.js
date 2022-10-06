@@ -8,11 +8,7 @@ import { setCars } from "../features/car/carSlice";
 import {selectCars} from "../features/car/carSlice";
 
 const Home = () => {
-
-
   const cars = useSelector(selectCars);
-
-  console.log("Cars",cars);
 
   const dispatch = useDispatch();
 
