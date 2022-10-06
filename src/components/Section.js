@@ -7,9 +7,6 @@ import db from "../firebase";
 
 
 const Section = ({title, description, leftBtnText, rightBtnText, backgroundImg, range, time, topSpeed, peakPower,}) => {
-
-
-
     const { id } = useParams();
     const [car, setCar] = useState();
 
