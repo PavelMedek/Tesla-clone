@@ -20,8 +20,6 @@ const Section = ({title, description, leftBtnText, rightBtnText, backgroundImg, 
         .then((doc)=>{
             if(doc.exists){
                 setCar(doc.data());
-            }else{
-                //fsaddfsa
             }
         })
     },[])
